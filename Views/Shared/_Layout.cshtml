@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Spears - @ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>    
+    <div class="container-fluid body-content">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <a class="navbar-brand font-weight-bolder" style="font-size: x-large;" href="@Url.Action("Index", "Home")">NICHOLAS SPEARS</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav font-weight-bold ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="@Url.Action("Index", "Home")">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Links", "Home")">LINKS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Projects", "Home")">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Templates", "Home")">TEMPLATES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("About", "Home")">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="@Url.Action("Contact", "Home")">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="~/Content/PDFs/NicholasSpears-2022.pdf">RESUME</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        @RenderBody()
+        <footer class="bg-info">
+            <p class="text-white text-center">&copy; @DateTime.Now - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

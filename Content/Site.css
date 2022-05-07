@@ -1,0 +1,61 @@
+﻿a {
+    font-family: "Aadhunik";
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.border-thick {
+    border-width: 5px !important;
+}
+
+.container-fluid {
+    margin-left: 0;
+    margin-right: 0;
+}
+.custom-border {
+    border: 5px solid transparent;
+    --g: #0000 90deg, #17a2b8 0;
+    background: conic-gradient(from 90deg at top 5px left 5px,var(--g)) 0 0, 
+                conic-gradient(from 180deg at top 5px right 5px,var(--g)) 100% 0, 
+                conic-gradient(from 0deg at bottom 5px left 5px,var(--g)) 0 100%, 
+                conic-gradient(from -90deg at bottom 5px right 5px,var(--g)) 100% 100%;
+    background-size: 25% 25%;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+
+.h-90 {
+    height: 90vh;
+}
+
+.mh-20 {
+    min-height: 20vh;
+}
+.mh-25 {
+    min-height: 25vh;
+}
+.mh-60 {
+    min-height: 60vh;
+}
+
+.o-25 {
+    opacity: 0.25;
+}
+.o-33 {
+    opacity: 0.33;
+}
+.o-50 {
+    opacity: 0.5;
+}
+.o-66 {
+    opacity: 0.66;
+}
+o-75 {
+    opacity: 0.75;
+}
+
+.aadhunik {
+    font-family: "Aadhunik";
+}
