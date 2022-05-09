@@ -2,6 +2,10 @@
     font-family: "Aadhunik";
 }
 
+.aadhunik {
+    font-family: "Aadhunik";
+}
+
 .bg-black {
     background-color: black;
 }
@@ -14,6 +18,7 @@
     margin-left: 0;
     margin-right: 0;
 }
+
 .custom-border {
     border: 5px solid transparent;
     --g: #0000 90deg, #48d8ee 0;
@@ -26,21 +31,11 @@
     background-repeat: no-repeat;
 }
 
+.mh-50  {
+    min-height: 50vh;
+}
 .h-90 {
     height: 90vh;
-}
-
-.mh-20 {
-    min-height: 20vh;
-}
-.mh-25 {
-    min-height: 25vh;
-}
-.mh-60 {
-    min-height: 60vh;
-}
-.mh-90 {
-    min-height: 90vh;
 }
 
 .o-25 {
@@ -59,6 +54,20 @@ o-75 {
     opacity: 0.75;
 }
 
-.aadhunik {
-    font-family: "Aadhunik";
+.one-cell::-webkit-scrollbar {
+    display: none;
+}
+
+.one-cell {
+    height: 75vh;
+    -ms-overflow-style: none;
+}
+
+.tri-cell::-webkit-scrollbar {
+    display: none;
+}
+
+.tri-cell {
+    height: 20vh;
+    -ms-overflow-style: none;
 }
