@@ -135,14 +135,9 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Clips\FuturisticGraphic-Crop-Blue.mp4" />
-    <Content Include="Content\Clips\FuturisticGraphicsSet-Blue.mp4" />
-    <Content Include="Content\Clips\FuturisticIcon-Blue-Crop.mp4" />
-    <Content Include="Content\Pics\DA-1200x900.jpg" />
-    <Content Include="Content\Pics\DA-2-1200x900.jpg" />
-    <Content Include="Content\Pics\DA-Mx-1200x1200.jpg" />
-    <Content Include="Content\Pics\DA3-1200x900.jpg" />
-    <Content Include="Content\Pics\DA3V-1200x900.jpg" />
+    <Content Include="Content\Pics\Avatar.gif" />
+    <Content Include="Content\Pics\CroppedClip.gif" />
+    <Content Include="Content\Pics\FullClip.gif" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />

@@ -16,7 +16,7 @@
 }
 .custom-border {
     border: 5px solid transparent;
-    --g: #0000 90deg, #17a2b8 0;
+    --g: #0000 90deg, #48d8ee 0;
     background: conic-gradient(from 90deg at top 5px left 5px,var(--g)) 0 0, 
                 conic-gradient(from 180deg at top 5px right 5px,var(--g)) 100% 0, 
                 conic-gradient(from 0deg at bottom 5px left 5px,var(--g)) 0 100%, 
@@ -38,6 +38,9 @@
 }
 .mh-60 {
     min-height: 60vh;
+}
+.mh-90 {
+    min-height: 90vh;
 }
 
 .o-25 {
